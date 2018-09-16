@@ -1,0 +1,21 @@
+<h3>Hacknews</h3>
+<ul style="font-size:0.5rem">
+{{range .List}}
+    <li>
+        <a href="{{.Url}}">{{.TitleEn}}</a>
+    </li>
+    <li>
+        <span style="color:red;">{{.TitleZh}} </span>
+    </li>
+{{end}}
+</ul>
+<hr>
+<h3>Git日志</h3>
+<ul style="font-size:0.5rem">
+{{range .Logs}}
+    <li>
+        <pre> {{.}}</pre>
+    </li>
+    <hr>
+{{end}}
+</ul>

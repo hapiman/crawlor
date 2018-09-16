@@ -1,0 +1,22 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+movie-board
+md-genie
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+.vscode
+.idea
+nohup.out
+go_build_main_go
+config/env.go
+Test*
+dump.rdb
+gennie.log
+archives
